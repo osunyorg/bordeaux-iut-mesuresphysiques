@@ -6,8 +6,8 @@ items:
   kind: url
   new_tab: false
   children:
-  - title: Sous-menu
-    target: ''
+  - title: Formation
+    target: "/formations/mp/"
     kind: url
     new_tab: false
     children: []
