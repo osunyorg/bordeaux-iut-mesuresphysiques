@@ -63,6 +63,11 @@ items:
     kind: blank
     new_tab: false
     children: []
+  - title: Bureau Des Etudiants
+    target: ''
+    kind: blank
+    new_tab: false
+    children: []
 - title: Entreprises
   target: ''
   kind: blank
