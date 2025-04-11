@@ -9,6 +9,17 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        linkedin:
+          label: >-
+            mp-bordeaux-mesures-physiques-iut-de-bordeaux-a2b209245
+          value: >-
+            https://www.linkedin.com/in/mp-bordeaux-mesures-physiques-iut-de-bordeaux-a2b209245/
+        youtube:
+          label: >-
+            MPIUTdeBordeaux
+          value: >-
+            https://www.youtube.com/@MPIUTdeBordeaux
 
   permalinks:
     locations: /campus/:slug/
