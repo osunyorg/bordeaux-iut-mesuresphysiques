@@ -82,5 +82,12 @@ items:
   target: ''
   kind: blank
   new_tab: false
-  children: []
+  children:
+  - title: Déposer une offre d'emploi
+    target: "/deposer-une-offre-demploi/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/deposer-une-offre-demploi"
+    file: content/fr/pages/deposer-une-offre-demploi/_index.html
 
