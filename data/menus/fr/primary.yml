@@ -34,6 +34,13 @@ items:
     children: []
     path: "/pages/le-departement/lorganigramme"
     file: content/fr/pages/le-departement/lorganigramme/_index.html
+  - title: Nous contacter
+    target: "/le-departement/nous-contacter/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-departement/nous-contacter"
+    file: content/fr/pages/le-departement/nous-contacter/_index.html
 - title: Formation
   target: ''
   kind: blank
