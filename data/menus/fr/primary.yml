@@ -41,6 +41,13 @@ items:
     children: []
     path: "/pages/le-departement/nous-contacter"
     file: content/fr/pages/le-departement/nous-contacter/_index.html
+  - title: Le mot de la direction
+    target: "/le-departement/le-mot-de-la-direction-1/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-departement/le-mot-de-la-direction-1"
+    file: content/fr/pages/le-departement/le-mot-de-la-direction-1/_index.html
 - title: Formation
   target: ''
   kind: blank
