@@ -5,24 +5,7 @@ items:
   target: ''
   kind: blank
   new_tab: false
-  children:
-  - title: Actualités
-    target: "/le-departement/actualites/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/posts"
-    file: content/fr/posts/_index.html
-  - title: Equipe
-    target: ''
-    kind: blank
-    new_tab: false
-    children: []
-  - title: Nous contacter
-    target: ''
-    kind: blank
-    new_tab: false
-    children: []
+  children: []
 - title: Formation
   target: ''
   kind: blank
