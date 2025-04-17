@@ -119,5 +119,12 @@ items:
   target: ''
   kind: blank
   new_tab: false
-  children: []
+  children:
+  - title: Blocs de base
+    target: "/page-de-test-blocs-de-base/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/page-de-test-blocs-de-base"
+    file: content/fr/pages/page-de-test-blocs-de-base/_index.html
 
