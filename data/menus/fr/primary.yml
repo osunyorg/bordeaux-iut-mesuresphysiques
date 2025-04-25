@@ -83,26 +83,34 @@ items:
   kind: blank
   new_tab: false
   children:
-  - title: Informations générales
-    target: ''
-    kind: blank
+  - title: La rentrée
+    target: "/vie-etudiante/la-rentree/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/vie-etudiante/la-rentree"
+    file: content/fr/pages/vie-etudiante/la-rentree/_index.html
   - title: Bureau Des Etudiants
-    target: ''
-    kind: blank
+    target: "/vie-etudiante/bureau-des-etudiants/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/vie-etudiante/bureau-des-etudiants"
+    file: content/fr/pages/vie-etudiante/bureau-des-etudiants/_index.html
   - title: Foyer
-    target: ''
-    kind: blank
+    target: "/vie-etudiante/foyer/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/vie-etudiante/foyer"
+    file: content/fr/pages/vie-etudiante/foyer/_index.html
   - title: Vie sur le campus
-    target: ''
-    kind: blank
+    target: "/vie-etudiante/vie-sur-le-campus/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/vie-etudiante/vie-sur-le-campus"
+    file: content/fr/pages/vie-etudiante/vie-sur-le-campus/_index.html
 - title: Entreprises
   target: ''
   kind: blank
