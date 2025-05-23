@@ -116,6 +116,20 @@ items:
   kind: blank
   new_tab: false
   children:
+  - title: Taxe d’apprentissage
+    target: "/entreprises/taxe-dapprentissage/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/entreprises/taxe-dapprentissage"
+    file: content/fr/pages/entreprises/taxe-dapprentissage/_index.html
+  - title: Partenaires
+    target: "/entreprises/partenaires/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/entreprises/partenaires"
+    file: content/fr/pages/entreprises/partenaires/_index.html
   - title: Déposer une offre d'emploi
     target: "/deposer-une-offre-demploi/"
     kind: page
@@ -123,6 +137,20 @@ items:
     children: []
     path: "/pages/deposer-une-offre-demploi"
     file: content/fr/pages/deposer-une-offre-demploi/_index.html
+  - title: Recruter des étudiants
+    target: ''
+    kind: blank
+    new_tab: false
+    children:
+    - title: Stages
+      target: "/entreprises/recruter-des-etudiants/stages/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/entreprises/recruter-des-etudiants/stages"
+      file: content/fr/pages/entreprises/recruter-des-etudiants/stages/_index.html
+    path: "/pages/entreprises/recruter-des-etudiants/stages"
+    file: content/fr/pages/entreprises/recruter-des-etudiants/stages/_index.html
 - title: TESTS
   target: ''
   kind: blank
