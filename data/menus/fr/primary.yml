@@ -63,6 +63,13 @@ items:
     kind: blank
     new_tab: false
     children: []
+  - title: Alternance
+    target: "/formations/le-but-en-alternance/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/formations/le-but-en-alternance"
+    file: content/fr/pages/formations/le-but-en-alternance/_index.html
   - title: Cursus international
     target: "/formations/cursus-international/"
     kind: page
