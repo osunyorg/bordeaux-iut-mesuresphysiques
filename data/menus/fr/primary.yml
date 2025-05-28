@@ -69,10 +69,12 @@ items:
     new_tab: false
     children: []
   - title: Cursus international
-    target: ''
-    kind: blank
+    target: "/formations/cursus-international/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/formations/cursus-international"
+    file: content/fr/pages/formations/cursus-international/_index.html
   - title: Projets
     target: ''
     kind: blank
