@@ -135,12 +135,12 @@ items:
     path: "/pages/entreprises/partenaires"
     file: content/fr/pages/entreprises/partenaires/_index.html
   - title: Déposer une offre d'emploi
-    target: "/deposer-une-offre-demploi/"
+    target: "/entreprises/deposer-une-offre-demploi/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/deposer-une-offre-demploi"
-    file: content/fr/pages/deposer-une-offre-demploi/_index.html
+    path: "/pages/entreprises/deposer-une-offre-demploi"
+    file: content/fr/pages/entreprises/deposer-une-offre-demploi/_index.html
   - title: Recruter des étudiants
     target: ''
     kind: blank
