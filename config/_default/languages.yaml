@@ -21,19 +21,6 @@ fr:
           value: >-
             https://www.youtube.com/@MPIUTdeBordeaux
 
-  permalinks:
-    locations: /campus/:slug/
-    pages_categories: /:slug/
-    projects: /projets/:year-:slug/
-    projects_categories: /projets/:slug/
-    posts: /le-departement/actualites/:year-:month-:day-:slug/
-    posts_categories: /le-departement/actualites/:slug/
-    diplomas: /diplomes/:slug/
-    programs_categories: /formations/categories/:slug/
-    programs: /formations/:slug/
-    persons: /equipe/:slug/
-    persons_categories: /equipe/categories/:slug/
-    administrators: /equipe/:slug/roles/
   taxonomies:
     administrator: administrators
     author: authors
