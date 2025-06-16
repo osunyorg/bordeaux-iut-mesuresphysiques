@@ -20,4 +20,9 @@ items:
   kind: url
   new_tab: true
   children: []
+- title: Un site éco-conçu produit avec Osuny
+  target: https://osuny.org/
+  kind: url
+  new_tab: true
+  children: []
 
