@@ -1,7 +1,7 @@
 ---
 title: Menu secondaire
 items:
-- title: ENT 1
+- title: ENT
   target: https://ent.u-bordeaux.fr/uPortal/f/welcome/normal/render.uP
   kind: url
   new_tab: true
