@@ -1,3 +1,4 @@
+
 header#document-header 
     .top-menu
         background-color: $color-brown
@@ -7,3 +8,28 @@ header#document-header
                     border-right-color: $color-background
                 a
                     color: $color-background
+
+.page__home
+    @include media-breakpoint-up(desktop)
+        .hero
+            overflow: hidden
+            &::after
+                background: var(--color-background)
+                content: ""
+                height: 10vw
+                position: absolute
+                left: 50%
+                bottom: 0
+                transform: rotate(-4deg) translateX(-50%) translateY(50%)
+                transform-origin: bottom left
+                width: 130%
+                z-index: 1
+            .content
+                position: relative
+                z-index: 2
+                .hero-text
+                    margin-top: 0
+            &.hero--with-image
+                .content
+                    .hero-text, > figure
+                        width: columns(6)
