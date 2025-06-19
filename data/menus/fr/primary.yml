@@ -59,10 +59,12 @@ items:
     new_tab: false
     children: []
   - title: 3 parcours de spécialisation
-    target: ''
-    kind: blank
+    target: "/formations/parcours-de-specialisation/"
+    kind: page
     new_tab: false
     children: []
+    path: "/pages/formations/parcours-de-specialisation"
+    file: content/fr/pages/formations/parcours-de-specialisation/_index.html
   - title: Alternance
     target: "/formations/le-but-en-alternance/"
     kind: page
