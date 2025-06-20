@@ -66,12 +66,12 @@ items:
     path: "/pages/formation/3-parcours-de-specialisation"
     file: content/fr/pages/formation/3-parcours-de-specialisation/_index.html
   - title: Cursus en alternance
-    target: "/formation/le-but-en-alternance/"
+    target: "/formation/cursus-en-alternance/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/formation/le-but-en-alternance"
-    file: content/fr/pages/formation/le-but-en-alternance/_index.html
+    path: "/pages/formation/cursus-en-alternance"
+    file: content/fr/pages/formation/cursus-en-alternance/_index.html
   - title: Cursus international
     target: "/formation/cursus-international/"
     kind: page
