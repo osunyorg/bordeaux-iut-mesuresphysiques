@@ -143,6 +143,13 @@ items:
       children: []
       path: "/pages/entreprises/recruter-des-etudiants/stages"
       file: content/fr/pages/entreprises/recruter-des-etudiants/stages/_index.html
+    - title: Offres d'emploi
+      target: "/entreprises/recruter-des-etudiants/offres-demploi/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/entreprises/recruter-des-etudiants/offres-demploi"
+      file: content/fr/pages/entreprises/recruter-des-etudiants/offres-demploi/_index.html
     path: "/pages/entreprises/recruter-des-etudiants/stages"
     file: content/fr/pages/entreprises/recruter-des-etudiants/stages/_index.html
   - title: Déposer une offre d'emploi
