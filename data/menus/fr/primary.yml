@@ -49,8 +49,8 @@ items:
     path: "/pages/le-departement/nous-contacter"
     file: content/fr/pages/le-departement/nous-contacter/_index.html
 - title: Formation
-  target: ''
-  kind: blank
+  target: "/formation/activites-ouverture-personnalisation/"
+  kind: page
   new_tab: false
   children:
   - title: BUT Mesures Physiques
@@ -79,6 +79,8 @@ items:
     children: []
     path: "/pages/formation/cursus-international"
     file: content/fr/pages/formation/cursus-international/_index.html
+  path: "/pages/formation/activites-ouverture-personnalisation"
+  file: content/fr/pages/formation/activites-ouverture-personnalisation/_index.html
 - title: Vie étudiante
   target: ''
   kind: blank
