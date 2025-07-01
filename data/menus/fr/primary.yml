@@ -127,8 +127,8 @@ items:
   new_tab: false
   children:
   - title: Nous soutenir
-    target: ''
-    kind: blank
+    target: "/entreprises/nous-soutenir/"
+    kind: page
     new_tab: false
     children:
     - title: Taxe d’apprentissage
@@ -145,9 +145,11 @@ items:
       children: []
       path: "/pages/entreprises/nous-soutenir/partenaires"
       file: content/fr/pages/entreprises/nous-soutenir/partenaires/_index.html
+    path: "/pages/entreprises/nous-soutenir"
+    file: content/fr/pages/entreprises/nous-soutenir/_index.html
   - title: Recruter des étudiants
-    target: ''
-    kind: blank
+    target: "/entreprises/recruter-des-etudiants/"
+    kind: page
     new_tab: false
     children:
     - title: Stages
@@ -164,8 +166,8 @@ items:
       children: []
       path: "/pages/entreprises/recruter-des-etudiants/offres-dalternance"
       file: content/fr/pages/entreprises/recruter-des-etudiants/offres-dalternance/_index.html
-    path: "/pages/entreprises/recruter-des-etudiants/stages"
-    file: content/fr/pages/entreprises/recruter-des-etudiants/stages/_index.html
+    path: "/pages/entreprises/recruter-des-etudiants"
+    file: content/fr/pages/entreprises/recruter-des-etudiants/_index.html
   - title: Offres d'emploi
     target: "/entreprises/offres-demploi/"
     kind: page
