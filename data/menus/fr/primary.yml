@@ -126,20 +126,25 @@ items:
   kind: blank
   new_tab: false
   children:
-  - title: Taxe d’apprentissage
-    target: "/entreprises/taxe-dapprentissage/"
-    kind: page
+  - title: Nous soutenir
+    target: ''
+    kind: blank
     new_tab: false
-    children: []
-    path: "/pages/entreprises/taxe-dapprentissage"
-    file: content/fr/pages/entreprises/taxe-dapprentissage/_index.html
-  - title: Partenaires
-    target: "/entreprises/partenaires/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/entreprises/partenaires"
-    file: content/fr/pages/entreprises/partenaires/_index.html
+    children:
+    - title: Taxe d’apprentissage
+      target: "/entreprises/nous-soutenir/taxe-dapprentissage/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/entreprises/nous-soutenir/taxe-dapprentissage"
+      file: content/fr/pages/entreprises/nous-soutenir/taxe-dapprentissage/_index.html
+    - title: Partenaires
+      target: "/entreprises/nous-soutenir/partenaires/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/entreprises/nous-soutenir/partenaires"
+      file: content/fr/pages/entreprises/nous-soutenir/partenaires/_index.html
   - title: Recruter des étudiants
     target: ''
     kind: blank
@@ -152,16 +157,23 @@ items:
       children: []
       path: "/pages/entreprises/recruter-des-etudiants/stages"
       file: content/fr/pages/entreprises/recruter-des-etudiants/stages/_index.html
-    - title: Offres d'emploi
-      target: "/entreprises/offres-demploi/"
+    - title: Offres d'alternance
+      target: "/entreprises/recruter-des-etudiants/offres-dalternance/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/entreprises/offres-demploi"
-      file: content/fr/pages/entreprises/offres-demploi/_index.html
+      path: "/pages/entreprises/recruter-des-etudiants/offres-dalternance"
+      file: content/fr/pages/entreprises/recruter-des-etudiants/offres-dalternance/_index.html
     path: "/pages/entreprises/recruter-des-etudiants/stages"
     file: content/fr/pages/entreprises/recruter-des-etudiants/stages/_index.html
-  - title: Déposer une offre d'emploi
+  - title: Offres d'emploi
+    target: "/entreprises/offres-demploi/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/entreprises/offres-demploi"
+    file: content/fr/pages/entreprises/offres-demploi/_index.html
+  - title: Déposer une offre
     target: "/entreprises/deposer-une-offre-de-stage-d-alternance-ou-d-emploi/"
     kind: page
     new_tab: false
