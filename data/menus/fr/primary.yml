@@ -189,4 +189,11 @@ items:
       file: content/fr/pages/entreprises/deposer-une-offre-de-stage-d-alternance-ou-d-emploi/_index.html
     path: "/pages/entreprises/offres-demploi"
     file: content/fr/pages/entreprises/offres-demploi/_index.html
+  - title: Intervenir dans notre formation
+    target: "/entreprises/intervenir-dans-notre-formation/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/entreprises/intervenir-dans-notre-formation"
+    file: content/fr/pages/entreprises/intervenir-dans-notre-formation/_index.html
 
