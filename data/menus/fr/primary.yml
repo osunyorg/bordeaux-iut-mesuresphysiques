@@ -153,19 +153,19 @@ items:
     new_tab: false
     children:
     - title: Stages
-      target: "/entreprises/recruter-des-etudiants/stages/"
+      target: "/entreprises/recruter-des-etudiants/proposer-un-stage/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/entreprises/recruter-des-etudiants/stages"
-      file: content/fr/pages/entreprises/recruter-des-etudiants/stages/_index.html
+      path: "/pages/entreprises/recruter-des-etudiants/proposer-un-stage"
+      file: content/fr/pages/entreprises/recruter-des-etudiants/proposer-un-stage/_index.html
     - title: Offres d'alternance
-      target: "/entreprises/recruter-des-etudiants/offres-dalternance/"
+      target: "/entreprises/recruter-des-etudiants/proposer-une-alternance/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/entreprises/recruter-des-etudiants/offres-dalternance"
-      file: content/fr/pages/entreprises/recruter-des-etudiants/offres-dalternance/_index.html
+      path: "/pages/entreprises/recruter-des-etudiants/proposer-une-alternance"
+      file: content/fr/pages/entreprises/recruter-des-etudiants/proposer-une-alternance/_index.html
     - title: Déposer une offre de stage/alternance
       target: "/entreprises/deposer-une-offre-de-stage-d-alternance-ou-d-emploi/"
       kind: page
