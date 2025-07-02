@@ -86,8 +86,8 @@ items:
     children: []
     path: "/pages/formation/activites-ouverture-personnalisation"
     file: content/fr/pages/formation/activites-ouverture-personnalisation/_index.html
-  path: "/programs"
-  file: content/fr/programs/_index.html
+  path: "/pages/formation"
+  file: content/fr/pages/formation/_index.html
 - title: Vie étudiante
   target: ''
   kind: blank
