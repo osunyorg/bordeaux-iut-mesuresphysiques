@@ -49,15 +49,17 @@ items:
     path: "/pages/le-departement/nous-contacter"
     file: content/fr/pages/le-departement/nous-contacter/_index.html
 - title: Formation
-  target: "/formation-but-mp/"
+  target: "/formation/"
   kind: page
   new_tab: false
   children:
   - title: BUT Mesures Physiques
-    target: "/formations/mp/"
+    target: formation/mp/
     kind: url
     new_tab: false
     children: []
+    path: "/pages/formation/3-parcours-de-specialisation"
+    file: content/fr/pages/formation/3-parcours-de-specialisation/_index.html
   - title: 3 parcours de spécialisation
     target: "/formation/3-parcours-de-specialisation/"
     kind: page
@@ -80,14 +82,14 @@ items:
     path: "/pages/formation/cursus-international"
     file: content/fr/pages/formation/cursus-international/_index.html
   - title: Activités d'ouverture et de personnalisation
-    target: "/formation-but-mp/activites-ouverture-personnalisation/"
+    target: "/formation/activites-ouverture-personnalisation/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/formation-but-mp/activites-ouverture-personnalisation"
-    file: content/fr/pages/formation-but-mp/activites-ouverture-personnalisation/_index.html
-  path: "/pages/formation-but-mp"
-  file: content/fr/pages/formation-but-mp/_index.html
+    path: "/pages/formation/activites-ouverture-personnalisation"
+    file: content/fr/pages/formation/activites-ouverture-personnalisation/_index.html
+  path: "/programs"
+  file: content/fr/programs/_index.html
 - title: Vie étudiante
   target: ''
   kind: blank
