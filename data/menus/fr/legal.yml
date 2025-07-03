@@ -15,7 +15,7 @@ items:
   children: []
   path: "/pages/plan-du-site"
   file: content/fr/pages/plan-du-site/_index.html
-- title: Réseau Mesures Physiques
+- title: Réseau Mesures Physiques – Les BUT Mesures Physiques en France
   target: https://mesures-physiques.fr/
   kind: url
   new_tab: true
