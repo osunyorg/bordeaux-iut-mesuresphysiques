@@ -9,6 +9,23 @@ header#document-header
                 a
                     color: $color-background
 
+footer#document-footer
+    .footer-iut
+        flex: 1
+    .footer-logo
+        flex: 1
+        width: 100%
+        display: flex
+        justify-content: space-between
+        a
+            display: block
+            width: columns(4)
+            &:after
+                display: none
+            img
+                height: $header-logo-height
+                @include media-breakpoint-up(desktop)
+                    height: $header-logo-height-desktop
 
 @include media-breakpoint-up(desktop)
     header.hero
