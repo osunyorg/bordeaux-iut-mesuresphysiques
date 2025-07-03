@@ -8,23 +8,53 @@ header#document-header
                     border-right-color: $color-background
                 a
                     color: $color-background
+    .menu
+        a,
+        span
+            &[aria-expanded]::after
+                display: inline-block
+        .nav-level-1
+            .dropdown-menu
+                &::after
+                    transform: rotate(3deg)
 
 footer#document-footer
     .footer-iut
         flex: 1
+        display: block !important
     .footer-logo
         flex: 1
         width: 100%
         display: flex
+        flex-wrap: wrap
+        gap: var(--grid-gutter)
         justify-content: space-between
+        padding-right: 0 !important
         a
             display: block
-            width: columns(4)
             &:after
                 display: none
             img
-                height: $header-logo-height
-                @include media-breakpoint-up(desktop)
+                display: inline-block
+            &:last-child
+                text-align: right
+    @include media-breakpoint-down(desktop)
+        .footer-logo
+            a:first-child
+                width: 100%
+                img
+                    height: auto
+            a:nth-child(1n + 2)
+                width: columns(6)
+                img
+                    height: $header-logo-height
+    @include media-breakpoint-up(desktop)
+        .footer-logo
+            a
+                width: columns(4)
+                &:nth-child(2)
+                    text-align: center
+                img
                     height: $header-logo-height-desktop
 
 @include media-breakpoint-up(desktop)
