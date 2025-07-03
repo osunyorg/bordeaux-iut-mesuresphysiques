@@ -130,21 +130,7 @@ items:
     target: "/entreprises/nous-soutenir/"
     kind: page
     new_tab: false
-    children:
-    - title: Taxe d’apprentissage
-      target: "/entreprises/nous-soutenir/taxe-dapprentissage/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/entreprises/nous-soutenir/taxe-dapprentissage"
-      file: content/fr/pages/entreprises/nous-soutenir/taxe-dapprentissage/_index.html
-    - title: Partenaires
-      target: "/entreprises/nous-soutenir/partenaires/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/entreprises/nous-soutenir/partenaires"
-      file: content/fr/pages/entreprises/nous-soutenir/partenaires/_index.html
+    children: []
     path: "/pages/entreprises/nous-soutenir"
     file: content/fr/pages/entreprises/nous-soutenir/_index.html
   - title: Recruter des étudiants
