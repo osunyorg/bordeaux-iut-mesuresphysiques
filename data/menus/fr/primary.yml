@@ -59,26 +59,26 @@ items:
     new_tab: false
     children: []
   - title: 3 parcours de spécialisation
-    target: "/formation-but-mp/3-parcours-de-specialisation/"
+    target: "/formation/3-parcours-de-specialisation/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/formation-but-mp/3-parcours-de-specialisation"
-    file: content/fr/pages/formation-but-mp/3-parcours-de-specialisation/_index.html
+    path: "/pages/formation/3-parcours-de-specialisation"
+    file: content/fr/pages/formation/3-parcours-de-specialisation/_index.html
   - title: Cursus en alternance
-    target: "/formation-but-mp/cursus-en-alternance/"
+    target: "/formation/cursus-en-alternance/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/formation-but-mp/cursus-en-alternance"
-    file: content/fr/pages/formation-but-mp/cursus-en-alternance/_index.html
+    path: "/pages/formation/cursus-en-alternance"
+    file: content/fr/pages/formation/cursus-en-alternance/_index.html
   - title: Cursus international
-    target: "/formation-but-mp/cursus-international/"
+    target: "/formation/cursus-international/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/formation-but-mp/cursus-international"
-    file: content/fr/pages/formation-but-mp/cursus-international/_index.html
+    path: "/pages/formation/cursus-international"
+    file: content/fr/pages/formation/cursus-international/_index.html
   - title: Activités d'ouverture et de personnalisation
     target: "/formation-but-mp/activites-ouverture-personnalisation/"
     kind: page
