@@ -144,14 +144,7 @@ items:
     target: "/entreprises/offres-demploi/"
     kind: page
     new_tab: false
-    children:
-    - title: Déposer une offre d’emploi
-      target: "/entreprises/deposer-une-offre-de-stage-d-alternance-ou-d-emploi/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/entreprises/deposer-une-offre-de-stage-d-alternance-ou-d-emploi"
-      file: content/fr/pages/entreprises/deposer-une-offre-de-stage-d-alternance-ou-d-emploi/_index.html
+    children: []
     path: "/pages/entreprises/offres-demploi"
     file: content/fr/pages/entreprises/offres-demploi/_index.html
   - title: Intervenir dans notre formation
