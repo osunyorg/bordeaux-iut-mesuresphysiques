@@ -141,12 +141,12 @@ items:
     path: "/pages/entreprises/recruter-des-etudiants"
     file: content/fr/pages/entreprises/recruter-des-etudiants/_index.html
   - title: Offres d'emploi
-    target: "/entreprises/offres-demploi/"
+    target: "/entreprises/employer-diplomes/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/entreprises/offres-demploi"
-    file: content/fr/pages/entreprises/offres-demploi/_index.html
+    path: "/pages/entreprises/employer-diplomes"
+    file: content/fr/pages/entreprises/employer-diplomes/_index.html
   - title: Intervenir dans notre formation
     target: "/entreprises/intervenir-dans-notre-formation/"
     kind: page
