@@ -1,2 +1,6 @@
 theme: bordeaux-theme
 _merge: deep
+params:
+  logo:
+    header: "/assets/images/logo-mp.svg"
+    footer: "/assets/images/logo-mp-white.svg"
