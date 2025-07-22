@@ -100,7 +100,7 @@ items:
     children: []
     path: "/pages/vie-etudiante/la-rentree"
     file: content/fr/pages/vie-etudiante/la-rentree/_index.html
-  - title: Bureau Des Etudiants
+  - title: Bureau des étudiants
     target: "/vie-etudiante/bureau-des-etudiants/"
     kind: page
     new_tab: false
