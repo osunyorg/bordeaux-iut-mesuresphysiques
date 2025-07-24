@@ -17,7 +17,11 @@ header#document-header
             .dropdown-menu
                 &::after
                     transform: rotate(3deg)
-
+        .nav-level-2
+            > li
+                > span,
+                > a
+                    @include h4
 footer#document-footer
     .footer-iut
         flex: 1
@@ -185,3 +189,4 @@ body.diplomas__term
 
 .footer-site
     display: none !important
+
