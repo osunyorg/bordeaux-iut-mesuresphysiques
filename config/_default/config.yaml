@@ -1,6 +1,8 @@
 theme: bordeaux-theme
 _merge: deep
 params:
+  debug:
+    productionUrl: https://mp.iut.u-bordeaux.fr
   logo:
     header: "/assets/images/logo-mp.svg"
     footer: "/assets/images/logo-mp-white.svg"
