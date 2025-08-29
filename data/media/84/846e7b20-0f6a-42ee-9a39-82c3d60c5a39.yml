@@ -1,6 +1,9 @@
 ---
 name: persona-placeholder-femme-1.jpg
 size: 9140
+width: 360
+height: 360
+ratio: 1.0
 format: square
 url: https://bordeaux.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6Ijg0NmU3YjIwLTBmNmEtNDJlZS05YTM5LTgyYzNkNjBjNWEzOSIsInB1ciI6ImJsb2JfaWQifX0=--0b71aa10eeacba6e12fdb488eaaaac170821ed78/persona-placeholder-femme-1.jpg
 direct_url: https://osuny.s3.fr-par.scw.cloud/dsqomo4qnntdr7wwrj33kceq58p1
