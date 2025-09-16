@@ -140,7 +140,7 @@ items:
     children: []
     path: "/pages/entreprises/recruter-des-etudiants"
     file: content/fr/pages/entreprises/recruter-des-etudiants/_index.html
-  - title: Employer des diplômés
+  - title: Employer des diplômés - Espace offres d'emploi
     target: "/entreprises/employer-diplomes/"
     kind: page
     new_tab: false
