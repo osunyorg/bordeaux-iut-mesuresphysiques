@@ -141,12 +141,12 @@ items:
     path: "/pages/entreprises/recruter-des-etudiants"
     file: content/fr/pages/entreprises/recruter-des-etudiants/_index.html
   - title: Employer des diplômés - Espace offres d'emploi
-    target: "/entreprises/employer-diplomes/"
+    target: "/entreprises/employer-diplomes/assistant-ingenieur-h-f-techniques-instrumentales-universite-de-toulouse-cra-campistrous-65/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/entreprises/employer-diplomes"
-    file: content/fr/pages/entreprises/employer-diplomes/_index.html
+    path: "/pages/entreprises/employer-diplomes/assistant-ingenieur-h-f-techniques-instrumentales-universite-de-toulouse-cra-campistrous-65"
+    file: content/fr/pages/entreprises/employer-diplomes/assistant-ingenieur-h-f-techniques-instrumentales-universite-de-toulouse-cra-campistrous-65/_index.html
   - title: Intervenir et témoigner
     target: "/entreprises/intervenir-et-temoigner/"
     kind: page
