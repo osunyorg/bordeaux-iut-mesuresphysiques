@@ -1,4 +1,4 @@
-theme: bordeaux-theme
+theme: bordeaux-program-theme
 _merge: deep
 params:
   debug:
