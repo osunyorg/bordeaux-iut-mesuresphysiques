@@ -79,7 +79,7 @@ items:
     children: []
     path: "/pages/formation/cursus-international"
     file: content/fr/pages/formation/cursus-international/_index.html
-  - title: Activités d'ouverture et de personnalisation
+  - title: Activités d'ouverture et de personnalisation et DU
     target: "/formation/activites-ouverture-personnalisation-du/"
     kind: page
     new_tab: false
