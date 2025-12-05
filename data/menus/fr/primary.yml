@@ -134,12 +134,12 @@ items:
     path: "/pages/entreprises/nous-soutenir"
     file: content/fr/pages/entreprises/nous-soutenir/_index.html
   - title: Recruter des étudiants
-    target: "/entreprises/recruter-des-etudiants/"
+    target: "/entreprises/recruter-des-etudiants-stages-alternance/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/entreprises/recruter-des-etudiants"
-    file: content/fr/pages/entreprises/recruter-des-etudiants/_index.html
+    path: "/pages/entreprises/recruter-des-etudiants-stages-alternance"
+    file: content/fr/pages/entreprises/recruter-des-etudiants-stages-alternance/_index.html
   - title: Employer des diplômés - Espace offres d'emploi
     target: "/entreprises/employer-diplomes/"
     kind: page
