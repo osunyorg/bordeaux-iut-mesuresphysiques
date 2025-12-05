@@ -133,7 +133,7 @@ items:
     children: []
     path: "/pages/entreprises/nous-soutenir"
     file: content/fr/pages/entreprises/nous-soutenir/_index.html
-  - title: Recruter des étudiants
+  - title: Recruter des étudiants - Stages et alternance
     target: "/entreprises/recruter-des-etudiants-stages-alternance/"
     kind: page
     new_tab: false
