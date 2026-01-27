@@ -1,6 +1,7 @@
 theme: bordeaux-program-theme
 _merge: deep
 params:
+  plausible: mp.iut.u-bordeaux.fr
   debug:
     productionUrl: https://mp.iut.u-bordeaux.fr
   logo:
