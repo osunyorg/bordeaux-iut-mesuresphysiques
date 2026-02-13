@@ -2,156 +2,221 @@
 title: Menu principal
 items:
 - title: Le département
+  slug: le-departement
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Nous découvrir
+    slug: nous-decouvrir
     target: "/le-departement/nous-decouvrir/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-departement/nous-decouvrir"
     file: content/fr/pages/le-departement/nous-decouvrir/_index.html
   - title: Le mot de la direction
+    slug: le-mot-de-la-direction
     target: "/le-departement/mot-de-la-direction/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-departement/mot-de-la-direction"
     file: content/fr/pages/le-departement/mot-de-la-direction/_index.html
   - title: Actualités
+    slug: actualites
     target: "/le-departement/actualites/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts"
     file: content/fr/posts/_index.html
   - title: Notre équipe
+    slug: notre-equipe
     target: "/le-departement/notre-equipe/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-departement/notre-equipe"
     file: content/fr/pages/le-departement/notre-equipe/_index.html
   - title: L'organigramme
+    slug: l-organigramme
     target: "/le-departement/lorganigramme/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-departement/lorganigramme"
     file: content/fr/pages/le-departement/lorganigramme/_index.html
   - title: Nous contacter
+    slug: nous-contacter
     target: "/le-departement/nous-contacter/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-departement/nous-contacter"
     file: content/fr/pages/le-departement/nous-contacter/_index.html
+  descendants_targets:
+  - "/le-departement/actualites/"
+  - "/le-departement/lorganigramme/"
+  - "/le-departement/mot-de-la-direction/"
+  - "/le-departement/notre-equipe/"
+  - "/le-departement/nous-contacter/"
+  - "/le-departement/nous-decouvrir/"
 - title: Formation
+  slug: formation
   target: "/formation/"
   kind: page
   new_tab: false
   children:
   - title: BUT Mesures Physiques
+    slug: but-mesures-physiques
     target: "/formation/mp/"
     kind: url
     new_tab: false
     children: []
+    descendants_targets: []
   - title: 3 parcours de spécialisation
+    slug: 3-parcours-de-specialisation
     target: "/formation/3-parcours-de-specialisation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/formation/3-parcours-de-specialisation"
     file: content/fr/pages/formation/3-parcours-de-specialisation/_index.html
   - title: Cursus en alternance
+    slug: cursus-en-alternance
     target: "/formation/cursus-en-alternance/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/formation/cursus-en-alternance"
     file: content/fr/pages/formation/cursus-en-alternance/_index.html
   - title: Cursus international
+    slug: cursus-international
     target: "/formation/cursus-international/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/formation/cursus-international"
     file: content/fr/pages/formation/cursus-international/_index.html
   - title: Activités d'ouverture et de personnalisation et DU
+    slug: activites-d-ouverture-et-de-personnalisation-et-du
     target: "/formation/activites-ouverture-personnalisation-du/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/formation/activites-ouverture-personnalisation-du"
     file: content/fr/pages/formation/activites-ouverture-personnalisation-du/_index.html
+  descendants_targets:
+  - "/formation/3-parcours-de-specialisation/"
+  - "/formation/activites-ouverture-personnalisation-du/"
+  - "/formation/cursus-en-alternance/"
+  - "/formation/cursus-international/"
+  - "/formation/mp/"
   path: "/programs"
   file: content/fr/programs/_index.html
 - title: Vie étudiante
+  slug: vie-etudiante
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: La rentrée
+    slug: la-rentree
     target: "/vie-etudiante/la-rentree/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/vie-etudiante/la-rentree"
     file: content/fr/pages/vie-etudiante/la-rentree/_index.html
   - title: Bureau des étudiants
+    slug: bureau-des-etudiants
     target: "/vie-etudiante/bureau-des-etudiants/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/vie-etudiante/bureau-des-etudiants"
     file: content/fr/pages/vie-etudiante/bureau-des-etudiants/_index.html
   - title: Foyer
+    slug: foyer
     target: "/vie-etudiante/foyer/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/vie-etudiante/foyer"
     file: content/fr/pages/vie-etudiante/foyer/_index.html
   - title: Vie sur le campus
+    slug: vie-sur-le-campus
     target: "/vie-etudiante/vie-sur-le-campus/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/vie-etudiante/vie-sur-le-campus"
     file: content/fr/pages/vie-etudiante/vie-sur-le-campus/_index.html
+  descendants_targets:
+  - "/vie-etudiante/bureau-des-etudiants/"
+  - "/vie-etudiante/foyer/"
+  - "/vie-etudiante/la-rentree/"
+  - "/vie-etudiante/vie-sur-le-campus/"
 - title: Entreprises
+  slug: entreprises
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Nous soutenir avec la TA
+    slug: nous-soutenir-avec-la-ta
     target: "/entreprises/nous-soutenir/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/entreprises/nous-soutenir"
     file: content/fr/pages/entreprises/nous-soutenir/_index.html
   - title: Recruter des étudiants - Stages et alternance
+    slug: recruter-des-etudiants-stages-et-alternance
     target: "/entreprises/recruter-des-etudiants-stages-alternance/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/entreprises/recruter-des-etudiants-stages-alternance"
     file: content/fr/pages/entreprises/recruter-des-etudiants-stages-alternance/_index.html
   - title: Employer des diplômés - Espace offres d'emploi
+    slug: employer-des-diplomes-espace-offres-d-emploi
     target: "/entreprises/employer-diplomes/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/entreprises/employer-diplomes"
     file: content/fr/pages/entreprises/employer-diplomes/_index.html
   - title: Intervenir et témoigner
+    slug: intervenir-et-temoigner
     target: "/entreprises/intervenir-et-temoigner/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/entreprises/intervenir-et-temoigner"
     file: content/fr/pages/entreprises/intervenir-et-temoigner/_index.html
+  descendants_targets:
+  - "/entreprises/employer-diplomes/"
+  - "/entreprises/intervenir-et-temoigner/"
+  - "/entreprises/nous-soutenir/"
+  - "/entreprises/recruter-des-etudiants-stages-alternance/"
 

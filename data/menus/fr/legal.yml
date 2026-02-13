@@ -2,36 +2,46 @@
 title: Informations légales
 items:
 - title: Mentions légales
+  slug: mentions-legales
   target: "/mentions-legales/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/mentions-legales"
   file: content/fr/pages/mentions-legales/_index.html
 - title: 'Accessibilité : non conforme'
+  slug: accessibilite-non-conforme
   target: "/mentions-legales/accessibilite/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/mentions-legales/accessibilite"
   file: content/fr/pages/mentions-legales/accessibilite/_index.html
 - title: Politique de confidentialité
+  slug: politique-de-confidentialite
   target: "/mentions-legales/politique-de-confidentialite/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/mentions-legales/politique-de-confidentialite"
   file: content/fr/pages/mentions-legales/politique-de-confidentialite/_index.html
 - title: Plan du site
+  slug: plan-du-site
   target: "/plan-du-site/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/plan-du-site"
   file: content/fr/pages/plan-du-site/_index.html
 - title: Réseau Mesures Physiques – Les BUT Mesures Physiques en France
+  slug: reseau-mesures-physiques-les-but-mesures-physiques-en-france
   target: https://mesures-physiques.fr/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 

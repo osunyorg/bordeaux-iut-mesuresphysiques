@@ -2,13 +2,17 @@
 title: 'Menu Têtière '
 items:
 - title: ENT
+  slug: ent
   target: https://ent.u-bordeaux.fr/uPortal/f/welcome/normal/render.uP
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Intranet
+  slug: intranet
   target: https://intranet.iut.u-bordeaux.fr/main/doku.php
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 
