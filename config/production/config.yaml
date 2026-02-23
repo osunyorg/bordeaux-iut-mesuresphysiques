@@ -7,6 +7,11 @@ osuny:
   website:
     id: 4683dfd4-b7da-4ed4-be6d-e50575bca91a
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "mp.iut.u-bordeaux.fr"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
