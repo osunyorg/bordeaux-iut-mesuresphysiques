@@ -12,27 +12,26 @@ jobs:
       group: ${{ github.workflow }}
       cancel-in-progress: true
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 1    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.154.5'
-          extended: true
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
-          node-version: '20'
+          node-version: 'lts/*'
           cache: 'yarn'
 
       - name: Install JS dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build
+      - name: Setup Hugo
+        uses: noesya/actions-hugo@release
+        with:
+          hugo-version: '0.154.5'
+          extended: true
+
+      - name: Compilation du site
         run: yarn osuny build
 
       - name: Install SSH Key
@@ -47,12 +46,10 @@ jobs:
       - name: Deploy with rsync through Bastion
         run: rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no -J ${{ secrets.BSSH_USER }}@${{ secrets.BSSH_HOST }}:${{ secrets.BSSH_PORT }} -p ${{ secrets.SSH_PORT }}" ./public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_WORKDIR }}/
 
-      - name: Notification Slack en cas d'échec
-        uses: ravsamhq/notify-slack-action@2.3.0
-        if: always()
-        with:
-          status: ${{ job.status }}
-          notify_when: "failure"
-          notification_title: ""
+      - name: Notification Slack en cas d'échecs
+        uses: rtCamp/action-slack-notify@v2
+        if: failure()
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_TITLE: 'Problem on repo ${{ github.event.repository.name }}'
+          SLACK_COLOR: '#FF0000'
