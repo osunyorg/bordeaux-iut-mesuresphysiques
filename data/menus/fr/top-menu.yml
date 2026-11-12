@@ -1,15 +1,15 @@
 ---
-title: 'Menu Têtière '
+title: Sur-menu
 items:
-- title: ENT
-  slug: ent
-  target: https://ent.u-bordeaux.fr/uPortal/f/welcome/normal/render.uP
+- title: Intranet de l'UB
+  slug: intranet-de-l-ub
+  target: https://intranet.u-bordeaux.fr/
   kind: url
   new_tab: true
   children: []
   descendants_targets: []
-- title: Intranet
-  slug: intranet
+- title: Intranet de l'IUT
+  slug: intranet-de-l-iut
   target: https://intranet.iut.u-bordeaux.fr/main/doku.php
   kind: url
   new_tab: true
